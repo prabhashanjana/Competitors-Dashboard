@@ -1,1 +1,1 @@
-# Competitors-Dashboard
+# Competitor-Intelligence-Tracker
