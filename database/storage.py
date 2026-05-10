@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from loguru import logger
 import sqlite3
 import pandas as pd
-import os
+import sys
 
 from config import DB_PATH
 

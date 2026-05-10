@@ -1,0 +1,7 @@
+playwright
+tf-playwright-stealth
+httpx
+streamlit
+pandas
+loguru
+python-dotenv

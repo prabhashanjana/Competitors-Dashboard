@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from loguru import logger
-import os
+import sys
 
 load_dotenv()
 logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
