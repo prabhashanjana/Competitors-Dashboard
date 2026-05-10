@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from loguru import logger
 
 load_dotenv()
-logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
+logger.add("app.log", rotation="1 week")
 
 
 def normalize_results(records: list[dict]) -> list[dict]:

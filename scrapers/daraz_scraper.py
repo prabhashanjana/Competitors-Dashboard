@@ -11,7 +11,8 @@ from config import (
 )
 
 load_dotenv()
-logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
+logger.add("app.log", rotation="1 week")
+
 
 DARAZ_API_URL = "https://www.daraz.lk/catalog/?ajax=true&isFirstRequest=true&page=1&q="
 

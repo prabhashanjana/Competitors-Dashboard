@@ -3,7 +3,6 @@ from loguru import logger
 import sys
 
 load_dotenv()
-logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
 logger.add("app.log", rotation="1 week")
 
 # --- Scraper Settings ---

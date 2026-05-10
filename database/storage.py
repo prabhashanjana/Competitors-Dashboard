@@ -7,11 +7,6 @@ import sys
 from config import DB_PATH
 
 load_dotenv()
-logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-logger.add("app.log", rotation="1 week")
-
-
-load_dotenv()
 logger.add("app.log", rotation="1 week")
 
 
