@@ -52,6 +52,7 @@ Streamlit Dashboard (display + analyze)
 
 ## Project Structure
 
+````
 competitors-dashboard/
 ├── main.py                  # Entry point — orchestrates everything
 ├── config.py                # Constants and settings
@@ -62,7 +63,8 @@ competitors-dashboard/
 ├── database/
 │   └── storage.py           # SQLite read/write operations
 └── dashboard/
-└── components.py        # Streamlit UI components
+    └── components.py        # Streamlit UI components
+````
 
 ---
 
@@ -116,5 +118,7 @@ Showing native currencies gives the most accurate picture for decision making.
 ## Built By
 
 **Prabhashanjana De Alwis**
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-prabhashanjana-181717?style=flat&logo=github)](https://github.com/prabhashanjana)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Prabhashanjana-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/prabhashanjana)
