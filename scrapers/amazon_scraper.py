@@ -19,7 +19,7 @@ from config import (
 )
 
 load_dotenv()
-logger.add("app.log", rotation="1 week")
+
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
